@@ -7,8 +7,6 @@ const mnozenieLiczb = function (liczba1 = 0, liczba2 = 0) {
     return wynik;
 }
 
-let wynikMnozenia = 0;
 
-wynikMnozenia = mnozenieLiczb(25, 50);
 
-console.log(wynikMnozenia);
+console.log(mnozenieLiczb(25, 50) );
